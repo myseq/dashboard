@@ -118,7 +118,7 @@ def main():
     st.write('*Select host using the checkbox.*')
 
     st.session_state.df = filtered_summary
-    selected_data = st.dataframe(st.session_state.df, width=650, key='data', on_select='rerun', selection_mode='single-row')
+    selected_data = st.dataframe(st.session_state.df, width=680, key='data', on_select='rerun', selection_mode='single-row')
 
     if selected_data.selection:
         if selected_data.selection.get('rows'):
