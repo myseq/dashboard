@@ -31,7 +31,7 @@ $ cd <repository_directory>
 
 2. Install required Python packages:
 
-```bash
+```console
 $ python3 -m venv venv
 $ source venv/bin/activate
 (venv) $ pip3 install -r requirements.txt
@@ -68,10 +68,6 @@ host_b,rhel9,c3,fail
 host_c,ws2022,c1,pass
 host_c,ws2022,c2,pass
 ```
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
